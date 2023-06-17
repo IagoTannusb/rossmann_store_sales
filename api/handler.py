@@ -5,7 +5,7 @@ import pickle
 from rossmann.Rossmann import Rossmann
 
 #loading molde
-model = pickle.load(open('./model/model_rossmann.pkl', 'rb'))
+model = pickle.load(open('../model/model_rossmann.pkl', 'rb'))
 
 #inicialização app
 app = Flask(__name__)
